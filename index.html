@@ -11,21 +11,65 @@
     <body>
         <!-- menu navigation -->
         <nav class="navigation">
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-                <i class="fas fa-bars"></i>
-            </label>
-            <label class="logo">Worldbook</label>
-            <div class="search">
-                <input type="text" placeholder="rechercher sur worldBook...">
-                <button><i class="fas fa-search"></i></button>
-            </div>
-            <ul>
-                <li><a class="hov" href="">profile</a></li>
-                <li><a class="hov" href="">message</a></li>
-                <li><a class="hov" href="">notification</a></li>
-                <li><a class="hov" href="">menu</a></li>
-            </ul>
+           <div class="nav-gauche">
+               <img src="images/logo.png" class="logo">
+           </div>
+           <div class="nav-milieu">
+               <div class="search-box">
+                    <input type="text" placeholder="Faites votre recherche...">
+                    <button><i class="fas fa-search"></i></button>
+               </div>     
+           </div>
+           <div class="nav-droite">
+               <ul>
+                   <li><img src="images/member-1.png" class="users-img"></li>
+                   <li><img src="images/inbox.png"></li>
+                   <li><img src="images/notification.png"></li>
+                   <li><img src="images/video.png"></li>
+               </ul>
+           </div>
         </nav>
+        <div class="container">
+            <!-- block gauche -->
+            <div class="block-gauche">
+                <div class="imp-lien">
+                    <a href="#"><img src="images/news.png">Dernière information</a>
+                    <a href="#"><img src="images/friends.png">Amis</a>
+                    <a href="#"><img src="images/group.png">Groupe</a>
+                    <a href="#"><img src="images/marketplace.png">Marché</a>
+                    <a href="#"><img src="images/watch.png">Regarder</a>
+                    <a href="#">Regarder plus</a>
+                </div>
+                <div class="rac-lien">
+                    <p>Vos raccourci</p>
+                    <a href="#"><img src="images/shortcut-1.png">Web Dev</a>
+                    <a href="#"><img src="images/shortcut-2.png">Web design course</a>
+                    <a href="#"><img src="images/shortcut-3.png">Full stack dev</a>
+                    <a href="#"><img src="images/shortcut-4.png">website experts</a>
+                </div>
+            </div>
+
+            <!-- block principal -->
+            <div class="block-principale"></div>
+
+            <!-- block droite -->
+            <div class="block-droite">
+               <div class="b-titre">
+                   <h4>évenement</h4>
+                   <a href="#">Regardez</a>
+               </div>
+               <div class="event">
+                    <div class="left-event">
+                        <h3>18</h3>
+                        <span>Mai</span>
+                    </div>
+                    <div class="right-event">
+                        <h4>Social</h4>
+                        <p>Linkdn</p>
+                        <a hreft="#">Plus d'information</a>
+                    </div>
+               </div>
+            </div>
+        </div>
     </body>
 </html>
